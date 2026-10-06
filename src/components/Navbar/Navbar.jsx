@@ -8,9 +8,14 @@ function Navbar() {
       </div>
 
       <div className="navbar-links">
-        <a href="/">Upgrade</a>
-        <a href="/shop">Shop</a>
-        <a href="/skins">My Skins</a>
+        <a href="/">BATTLE</a>
+        <a href="/shop" className="upgrade">UPGRADE</a>
+        <a href="/skins">VIP</a>
+      </div>
+
+      <div className="navbar-links-social-networks">
+        <a href="ig"><img src="/logo/logo-ig.png" alt="ig" /></a>
+        <a href="x"><img src="/logo/logo-x.png" alt="x" /></a>
       </div>
 
       <button className="navbar-login">

@@ -7,18 +7,19 @@
   justify-content: space-between;
 
   background-color: #0d0d12;
-  border-bottom: 1px solid #22222a;
 }
 
 .navbar-logo {
   color: white;
-  font-size: 22px;
+  font-size: 25px;
   font-weight: bold;
 }
 
 .navbar-links {
   display: flex;
   gap: 30px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .navbar-links a {
@@ -26,8 +27,37 @@
   text-decoration: none;
 }
 
+.navbar-links .upgrade {
+  color: #e8c21b;
+}
+
 .navbar-links a:hover {
   color: white;
+}
+
+.navbar-links-social-networks {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-links-social-networks a {
+  width: 36px;
+  height: 36px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #202027;
+  border-radius: 50%;
+}
+
+.navbar-links-social-networks img {
+  width: 18px;
+  height: 18px;
+
+  object-fit: contain;
 }
 
 .navbar-login {
