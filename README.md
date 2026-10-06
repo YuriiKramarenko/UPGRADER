@@ -1,16 +1,18 @@
-# React + Vite
+# UPGRADER
+Strona będzie umożliwiała przeglądanie i wyszukiwanie skinów, pobieranie ich danych z API, wybieranie skinów do upgradera oraz obliczanie szansy na upgrade. Użytkownik będzie mógł wykonać upgrade, zobaczyć jego wynik oraz historię wcześniejszych prób. Strona będzie również posiadała profil użytkownika, saldo oraz responsywny interfejs.
+link do ilustracji projektu https://www.canva.com/design/DAHWv0v3GDk/rNBZDpFc6a1PHnBSw_f_uQ/edit
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- [ ] Stworzyć projekt React
+- [ ] Zrobić layout podobny do Upgrader Skins
+- [ ] Zrobić navbar
+- [ ] Dodać API
+- [ ] Pobierać skiny z API
+- [ ] Wyświetlać skiny
+- [ ] Dodać wyszukiwarkę
+- [ ] Dodać wybór skina
+- [ ] Zrobić system upgradera
+- [ ] Dodać obliczanie szansy/wyniku
+- [ ] Obsłużyć loading i błędy API
+- [ ] Zrobić wersję mobilną
+- [ ] Przetestować stronę
+- [ ] Wrzucić projekt na GitHub
