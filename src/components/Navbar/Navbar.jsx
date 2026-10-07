@@ -2,26 +2,48 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <nav className="navbar">
-      <div className="navbar-logo">
-        UPGRADER
+<header>
+  <div className="navbar-left">
+    <div className="navbar-logo">
+      UPGRADER
+    </div>
+
+    <div className="navbar-info">
+      <div className="navbar-stat">
+        <span>Online</span>
+        <strong>12345</strong>
       </div>
 
-      <div className="navbar-links">
-        <a href="/">BATTLE</a>
-        <a href="/shop" className="upgrade">UPGRADE</a>
-        <a href="/skins">VIP</a>
+      <div className="navbar-stat">
+        <span>Upgrades</span>
+        <strong>12345</strong>
       </div>
+    </div>
+  </div>
 
-      <div className="navbar-links-social-networks">
-        <a href="ig"><img src="/logo/logo-ig.png" alt="ig" /></a>
-        <a href="x"><img src="/logo/logo-x.png" alt="x" /></a>
-      </div>
+  <nav className="navbar-menu">
+    <a href="/">BATTLE</a>
+    <a href="/shop" className="upgrade">UPGRADE</a>
+    <a href="/skins">VIP</a>
+  </nav>
 
-      <button className="navbar-login">
-        Login with Steam
-      </button>
-    </nav>
+  <div className="navbar-right">
+    <div className="navbar-socials">
+      <a href="ig">
+        <img src="/logo/logo-ig.png" alt="Instagram" />
+      </a>
+
+      <a href="x">
+        <img src="/logo/logo-x.png" alt="X" />
+      </a>
+    </div>
+
+    <button className="navbar-login">
+      Login with Steam
+    </button>
+  </div>
+</header>
+
   );
 }
 
